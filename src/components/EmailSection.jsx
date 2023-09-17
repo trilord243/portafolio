@@ -34,7 +34,7 @@ export const EmailSection = () => {
             <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 left-0 transform translate-x-0 translate-y-0'></div>
 
             <div className='z-10'>
-                <h5 className='text-xl font-bold text-white my-2' >Let's connect </h5>
+                <h5 className='text-xl font-bold text-white my-2' >Lets connect </h5>
 
                 <p className='text-[#ADB7BE]'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi iste alias quibusdam beatae deleniti delectus facilis, iusto, inventore, consectetur labore optio voluptates rerum. Numquam eum, nesciunt adipisci reprehenderit expedita natus!</p>
                 <div className='socials flex flex-row gap-2'>

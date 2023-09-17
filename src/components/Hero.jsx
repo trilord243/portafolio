@@ -15,7 +15,7 @@ export const Hero = () => {
 
 
 
-                    <h1 className='text-white mb-4 text-4xl lg:text-8xl lg:leading-normal font-extrabold sm:text-5xl ' >   <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-500' > Hello,I'm   </span>
+                    <h1 className='text-white mb-4 text-4xl lg:text-8xl lg:leading-normal font-extrabold sm:text-5xl ' >   <span className='text-transparent bg-clip-text bg-gradient-to-r from-primary-500 to-secondary-500' > Hello,Im   </span>
                         <br />
 
                         <TypeAnimation
