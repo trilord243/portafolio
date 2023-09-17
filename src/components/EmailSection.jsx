@@ -4,33 +4,29 @@ import githubIcon from '../../public/github-icon.svg'
 import linkedinIcon from '../../public/linkedin-icon.svg'
 import Link from 'next/link'
 import Image from 'next/image'
+import axios from 'axios'
 
 export const EmailSection = () => {
     const [emailSubmitted, setEmailSubmitted] = useState(false)
     const handleSubmit = async (e) => {
         e.preventDefault()
+
         const data = {
             email: e.target.email.value,
             subject: e.target.subject.value,
             message: e.target.message.value
         }
-        console.log(data)
-        const JSONdata = JSON.stringify(data)
-        const endpoint = "api/send"
-        const options = {
-            method: 'POST',
-            headers: {
-                'Content-Type': 'application/json'
-            },
-            body: JSONdata
-        }
+        console.log(data.json)
 
-        const response = await fetch(endpoint, options)
-        const resData = await response.json()
-        console.log(resData)
-        if (response.status === 200) {
-            //alert('Message sent')
-            setEmailSubmitted(true)
+        try {
+            const response = await axios.post("api/send", data)
+
+            console.log(response.data)
+            if (response.status === 200) {
+                setEmailSubmitted(true)
+            }
+        } catch (error) {
+            console.error("There was an error sending the message", error);
         }
     }
     return (
