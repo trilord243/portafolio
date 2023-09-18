@@ -36,13 +36,15 @@ export const EmailSection = () => {
             <div className='z-10'>
                 <h5 className='text-xl font-bold text-white my-2' >Lets connect </h5>
 
-                <p className='text-[#ADB7BE]'> Lorem ipsum dolor sit amet consectetur, adipisicing elit. Quasi iste alias quibusdam beatae deleniti delectus facilis, iusto, inventore, consectetur labore optio voluptates rerum. Numquam eum, nesciunt adipisci reprehenderit expedita natus!</p>
+                <p className='text-[#ADB7BE]'> If you're interested in any solution, have a project idea, or simply want to chat, I'd love to hear from you. Dive into my journey and check out my works on GitHub and LinkedIn - just follow the links!
+
+                    Still prefer a more traditional approach? 📧 Send me an email at felipe@trilord.live. Let's talk and turn your visions into reality.</p>
                 <div className='socials flex flex-row gap-2'>
 
 
 
-                    <Link href="https://www.youtube.com/watch?v=Kb1f5bvF6f4" >  <Image src={githubIcon} alt='github icon' ></Image>  </Link>
-                    <Link href="linkedin.com" >  <Image src={linkedinIcon} alt='linkedin icon' ></Image>  </Link>
+                    <Link href="https://github.com/trilord243" >  <Image src={githubIcon} alt='github icon' ></Image>  </Link>
+                    <Link href="https://www.linkedin.com/in/felipe-escalona-ruiz-405499188/" >  <Image src={linkedinIcon} alt='linkedin icon' ></Image>  </Link>
                 </div>
             </div>
             <form className='flex flex-col ' onSubmit={handleSubmit}>
