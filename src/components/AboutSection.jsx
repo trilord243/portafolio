@@ -67,7 +67,13 @@ export const AboutSection = () => {
                 <div className='mt-4 md:mt-0 text-left flex flex-col h-full '>
 
                     <h2 className='text-4xl font-bold  text-white mb-4' > About Me </h2>
-                    <p className='text-base md:text-lg' > Lorem ipsum dolor sit amet consectetur adipisicing elit. Iure consequuntur blanditiis, dicta, eum itaque, tempora quasi porro commodi reiciendis aut molestiae impedit earum. Nesciunt quidem tempora provident dolor, quo iusto? </p>
+                    <p className='text-base md:text-lg' > From the foundation of barcode printer technician with Zebra Technologies to today's specialization, my journey in the tech world has been marked by continuous learning and passion. My expertise lies in web development, having honed my skills with Node.js, Express, React.js, Next.js, and React Native. But my capabilities don’t stop there. I'm also adept in data management, data structure solutions, and API creation, ensuring that your projects benefit from precision and efficiency.
+
+                        Venturing into the world of Internet of Things (IoT), I've gained hands-on experience with Arduino, crafting innovative solutions that bridge the digital and physical realms. Furthermore, I'm familiar with Tailwind CSS for intuitive user interface design, and Zebra Enterprise Browser for specialized applications.
+
+                        Beyond software, my knowledge extends to creating circuits that trigger processes, be it through Arduino or utilizing the GPIO capabilities of Zebra devices. This unique blend of hardware and software expertise positions me at the forefront of automating and optimizing complex processes.
+
+                        In essence, my love for technology and drive to innovate keeps me pushing the boundaries of what's possible. I'm committed to harnessing the power of modern tools and technologies to offer unparalleled solutions. </p>
                     <div className='flex flex-row mt-8' >
                         <TabButton selectTab={() => handleTabChange("skills")} active={tab === 'skills'} > Skills </TabButton>
                         <TabButton selectTab={() => handleTabChange("education")} active={tab === 'education'} > Education </TabButton>
