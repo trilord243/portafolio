@@ -36,9 +36,10 @@ export const EmailSection = () => {
             <div className='z-10'>
                 <h5 className='text-xl font-bold text-white my-2' >Lets connect </h5>
 
-                <p className='text-[#ADB7BE]'> If you're interested in any solution, have a project idea, or simply want to chat, I'd love to hear from you. Dive into my journey and check out my works on GitHub and LinkedIn - just follow the links!
+                <p className='text-[#ADB7BE]'>
+                    If you re interested in any solution, have a project idea, or simply want to chat, I d love to hear from you. Dive into my journey and check out my works on GitHub and LinkedIn - just follow the links!
 
-                    Still prefer a more traditional approach? 📧 Send me an email at felipe@trilord.live. Let's talk and turn your visions into reality.</p>
+                    Still prefer a more traditional approach? 📧 Send me an email at felipe@trilord.live. Let s talk and turn your visions into reality.</p>
                 <div className='socials flex flex-row gap-2'>
 
 
