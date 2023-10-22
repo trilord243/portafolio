@@ -65,13 +65,13 @@ export const AboutSection = () => {
 
 
     return (
-        <section className='text-white p-8 shadow-xl rounded-lg'>
+        <section className='text-white p-8 shadow-xl rounded-lg' id='about'>
             <div className='md:grid md:grid-cols-1/3-2/3 gap-6 items-start py-6 px-4 sm:py-12 sm:px-8'>
                 <div className='flex justify-center items-center'>
                     <Image src='/assets/about-image.png' width={500} height={500} alt='about image' className='rounded-full shadow-md' />
                 </div>
                 <div>
-                    <h2 className='text-4xl font-bold mb-11 text-center '>About Me</h2>
+                    <h2 className='text-4xl font-bold mb-11 text-center ' id='skills'>About Me</h2>
                     <div className='text-lg mb-10 leading-relaxed text-center mt-5 '>
                         <p>From the foundation of barcode printer technician with Zebra Technologies to today s specialization, my journey in the tech world has been marked by continuous learning and passion. My expertise lies in web development, having honed my skills with Node.js, Express, React.js, Next.js, and React Native. But my capabilities don t stop there. I m also adept in data management, data structure solutions, and API creation, ensuring that your projects benefit from precision and efficiency.</p>
                         <p className="mt-4">Venturing into the world of Internet of Things (IoT), I ve gained hands-on experience with Arduino, crafting innovative solutions that bridge the digital and physical realms. Furthermore, I m familiar with Tailwind CSS for intuitive user interface design, and Zebra Enterprise Browser for specialized applications.</p>

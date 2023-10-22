@@ -22,7 +22,7 @@ const navLinks = [
     },
     {
         href: '#contact',
-        tittle: 'Contact'
+        tittle: 'Blogs'
     }
 ]
 

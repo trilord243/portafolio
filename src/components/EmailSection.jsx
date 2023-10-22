@@ -30,7 +30,7 @@ export const EmailSection = () => {
         }
     }
     return (
-        <section className='grid md:grid-cols-2 my-2 md:my-2 py-24 gap-4 relative' >
+        <section className='grid md:grid-cols-2 my-2 md:my-2 py-24 gap-4 relative' id="contact-section" >
             <div className='bg-[radial-gradient(ellipse_at_center,_var(--tw-gradient-stops))] from-primary-900 to-transparent rounded-full h-80 w-80 z-0 blur-lg absolute top-0 left-0 transform translate-x-0 translate-y-0'></div>
 
             <div className='z-10'>

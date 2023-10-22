@@ -37,10 +37,11 @@ export const Hero = () => {
                         /></h1>
                     <p className='text-[#ADB7BE] text-base sm:text-lg lg:text-xl ' > Specialized in web development using Node.js, Express, React.js, Next.js, and React Native. Proven experience with Zebra Technologies: barcode scanning, data capture, RFID, and machine vision. Driven by a love for technology and a commitment to automating processes and data capture. </p>
                     <div>
-                        <button className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-600 to-secondary-400 hover:bg-primary-700 text-white'>Hire Me</button>
+                        <a href="#contact-section" className='px-6 py-3 w-full sm:w-fit rounded-full mr-4 bg-gradient-to-br from-primary-600 via-secondary-600 to-secondary-400 hover:bg-primary-700 text-white'>Hire Me</a>
                         <button className='px-1 py-1 rounded-full w-full sm:w-fit mr-4 bg-gradient-to-br from-primary-600 via-secondary-600 to-secondary-400 hover:bg-slate-800 text-white  mt-3 ' >
-                            <span className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2"> Donwload cv</span> </button>
+                            <a href='/cv.pdf' download className="block bg-[#121212] hover:bg-slate-800 rounded-full px-5 py-2">Download cv</a>
 
+                        </button>
                     </div>
                 </motion.div>
 
