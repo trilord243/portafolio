@@ -38,7 +38,7 @@ const projectData = [
         title: 'Fox lazy image',
         description: 'A random loader images of foxes using nextjs',
         image: '/projects/lazy-image.png',
-        tag: ["All", "Mobile"],
+        tag: ["All", "Web"],
         gitUrl: "https://github.com/trilord243/next_typescript-",
         previewUrl: "https://master--luxury-lollipop-01e0b2.netlify.app/"
     },
@@ -47,9 +47,17 @@ const projectData = [
         title: 'Ecommerce with React',
         description: 'Ecommerce with React using localStorage with users validations with localStorage and load products with apis',
         image: '/projects/store-localStorage.png',
-        tag: ["All", "Web"],
+        tag: ["All", "Web", "Hardware"],
         gitUrl: "https://github.com/trilord243/fake-online-store",
         previewUrl: "https://reliable-puffpuff-a71625.netlify.app/"
+    }, {
+        id: 6,
+        title: 'Arduino Javascript',
+        description: 'Using arduino with javascript to control a led if the response is true or false,activating a actuator motor, and a water sensor ',
+        image: '/projects/arduino.png',
+        tag: ["All", "Hardware"],
+        gitUrl: "https://github.com/trilord243/client-johnny-five",
+        previewUrl: "https://youtu.be/IesWCkUNvmc"
     },
 
 ]
@@ -73,8 +81,8 @@ export const ProjectSection = () => {
                 <ProjectTag onClick={handleTagChange} name={'All'} isSelected={tag === "All"} />
                 <ProjectTag onClick={handleTagChange} name={'Web'} isSelected={tag === "Web"} />
                 <ProjectTag onClick={handleTagChange} name={'Mobile'} isSelected={tag === "Mobile"} />
-                {/* <button className='rounden-full border-2 border-purple-500 px-6 py-3 text-xl cursor-pointer'>All</button>
-                <button className='rounden-full border-2 border-slate-600 hover:border-white px-6 py-3 text-xl cursor-pointer' >Web</button> */}
+                <ProjectTag onClick={handleTagChange} name={'Hardware'} isSelected={tag === "Hardware"} />
+
             </div>
             <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12' >  {filteredProjects.map((project, index) =>
                 <motion.li key={index} variants={cardVariants} initial="initial" animate={isInview ? 'animate' : "initial"} transition={{ duration: 0.5, delay: index * 0.4 }}   >
