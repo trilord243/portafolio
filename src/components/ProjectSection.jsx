@@ -77,14 +77,14 @@ export const ProjectSection = () => {
     return (
         <section id='projects' >
             <h2 className='text-center text-4xl font-bold text-white mt-4 mb-8 md:mb-12' >My Projects  </h2>
-            <div className='text-white flex flex-row justify-center items-center gap-2 py-6'>
+            <div className='text-white flex flex-wrap justify-center items-center gap-2 py-6'>
                 <ProjectTag onClick={handleTagChange} name={'All'} isSelected={tag === "All"} />
                 <ProjectTag onClick={handleTagChange} name={'Web'} isSelected={tag === "Web"} />
                 <ProjectTag onClick={handleTagChange} name={'Mobile'} isSelected={tag === "Mobile"} />
                 <ProjectTag onClick={handleTagChange} name={'Hardware'} isSelected={tag === "Hardware"} />
-
             </div>
-            <ul ref={ref} className='grid md:grid-cols-3 gap-8 md:gap-12' >  {filteredProjects.map((project, index) =>
+
+            <ul ref={ref} className='grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-4 md:gap-6 lg:gap-12'> {filteredProjects.map((project, index) =>
                 <motion.li key={index} variants={cardVariants} initial="initial" animate={isInview ? 'animate' : "initial"} transition={{ duration: 0.5, delay: index * 0.4 }}   >
                     <ProjectCards
                         key={project.id}
