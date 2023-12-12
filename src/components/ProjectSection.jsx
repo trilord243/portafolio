@@ -59,6 +59,15 @@ const projectData = [
         gitUrl: "https://github.com/trilord243/client-johnny-five",
         previewUrl: "https://youtu.be/IesWCkUNvmc"
     },
+    {
+        id: 7,
+        title: 'Pizzeria',
+        description: 'React template for a pizzeria',
+        image: '/projects/pizzeria.png',
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/trilord243/pizzeria-onepage",
+        previewUrl: "https://pizzeria-onepage.vercel.app/"
+    },
 
 ]
 
