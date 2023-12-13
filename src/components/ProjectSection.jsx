@@ -5,6 +5,15 @@ import ProjectTag from './ProjectTag';
 import { motion, useInView } from 'framer-motion';
 
 const projectData = [
+    {
+        id: 8,
+        title: 'Far away',
+        description: 'Add items to your trip and check the items you have already packed',
+        image: '/projects/far-away.png',
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/trilord243/far-away-react",
+        previewUrl: "https://far-away-react.vercel.app/"
+    },
 
     {
         id: 1,
@@ -47,7 +56,7 @@ const projectData = [
         title: 'Ecommerce with React',
         description: 'Ecommerce with React using localStorage with users validations with localStorage and load products with apis',
         image: '/projects/store-localStorage.png',
-        tag: ["All", "Web", "Hardware"],
+        tag: ["All", "Web"],
         gitUrl: "https://github.com/trilord243/fake-online-store",
         previewUrl: "https://reliable-puffpuff-a71625.netlify.app/"
     }, {
