@@ -6,6 +6,15 @@ import { motion, useInView } from 'framer-motion';
 
 const projectData = [
     {
+        id: 9,
+        title: 'Add tasks  react-native',
+        description: 'Add tasks with react-native and expo',
+        image: '/projects/far-away.png',
+        tag: ["All", "Mobile"],
+        gitUrl: "https://github.com/trilord243/far-away-react",
+        previewUrl: "https://far-away-react.vercel.app/"
+    },
+    {
         id: 8,
         title: 'Far away',
         description: 'Add items to your trip and check the items you have already packed',
