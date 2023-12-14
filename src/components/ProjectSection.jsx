@@ -12,7 +12,7 @@ const projectData = [
         image: '/projects/pantalla1.png',
         tag: ["All", "Mobile"],
         gitUrl: "https://github.com/trilord243/react-native-todo/tree/master",
-        previewUrl: " "
+        previewUrl: "https://expo.dev/artifacts/eas/4okUMz894dS84B1F13qdsK.aab"
     },
     {
         id: 8,
