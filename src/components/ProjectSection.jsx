@@ -9,10 +9,10 @@ const projectData = [
         id: 9,
         title: 'Add tasks  react-native',
         description: 'Add tasks with react-native and expo',
-        image: '/projects/far-away.png',
+        image: '/projects/pantalla1.png',
         tag: ["All", "Mobile"],
-        gitUrl: "https://github.com/trilord243/far-away-react",
-        previewUrl: "https://far-away-react.vercel.app/"
+        gitUrl: "https://github.com/trilord243/react-native-todo/tree/master",
+        previewUrl: " "
     },
     {
         id: 8,
