@@ -6,6 +6,15 @@ import { motion, useInView } from 'framer-motion';
 
 const projectData = [
     {
+        id: 10,
+        title: 'Trilord movies',
+        description: 'Using IMDB api to rate movies! with react ',
+        image: '/projects/trilordmovie.png',
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/trilord243/movie-ratin-imdb",
+        previewUrl: "https://movie-ratin-imdb.vercel.app/"
+    },
+    {
         id: 9,
         title: 'Add tasks  react-native',
         description: 'Add tasks with react-native and expo',
