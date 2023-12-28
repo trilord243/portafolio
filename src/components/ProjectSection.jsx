@@ -6,6 +6,15 @@ import { motion, useInView } from 'framer-motion';
 
 const projectData = [
     {
+        id: 11,
+        title: 'React quiz only reducer',
+        description: 'A react quiz with only user reducer for state management',
+        image: '/projects/quiz.png',
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/trilord243/my-react-quiz",
+        previewUrl: "https://my-react-quiz-six.vercel.app/"
+    },
+    {
         id: 10,
         title: 'Trilord movies',
         description: 'Using IMDB api to rate movies! with react ',
