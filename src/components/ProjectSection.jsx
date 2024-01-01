@@ -5,7 +5,16 @@ import ProjectTag from './ProjectTag';
 import { motion, useInView } from 'framer-motion';
 
 const projectData = [
+
     {
+        id: 12,
+        title: 'World map React',
+        description: 'Using leaflet library you can see the world map with react',
+        image: '/projects/world.png',
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/trilord243/react-world-travel",
+        previewUrl: "https://react-world-travel.vercel.app/"
+    }, {
         id: 11,
         title: 'React quiz only reducer',
         description: 'A react quiz with only user reducer for state management',
