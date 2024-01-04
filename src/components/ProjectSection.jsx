@@ -5,6 +5,15 @@ import ProjectTag from './ProjectTag';
 import { motion, useInView } from 'framer-motion';
 
 const projectData = [
+    {
+        id: 13,
+        title: 'Pizza delivery',
+        description: 'Using react-router-dom, real API and redux a delivery app pizza!',
+        image: '/projects/pizza.png',
+        tag: ["All", "Web"],
+        gitUrl: "https://github.com/trilord243/pizza-delivery",
+        previewUrl: "https://pizza-delivery-vert.vercel.app/"
+    },
 
     {
         id: 12,
@@ -14,7 +23,8 @@ const projectData = [
         tag: ["All", "Web"],
         gitUrl: "https://github.com/trilord243/react-world-travel",
         previewUrl: "https://react-world-travel.vercel.app/"
-    }, {
+    },
+    {
         id: 11,
         title: 'React quiz only reducer',
         description: 'A react quiz with only user reducer for state management',
